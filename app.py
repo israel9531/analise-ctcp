@@ -153,12 +153,12 @@ st.markdown("""
   <div class="kpi-card">
     <div class="kpi-title">FROTA CTCP</div>
     <div class="kpi-value kpi-accent">""" + f"{frota:,}".replace(",", ".") + """</div>
-    <p class="kpi-sub">Total de veículos atualmente no recorte selecionado</p>
+    <p class="kpi-sub">Total de veículos com filtros selecionados</p>
   </div>
   <div class="kpi-card">
     <div class="kpi-title">IDADE MÉDIA DA FROTA</div>
     <div class="kpi-value kpi-accent-2">""" + f"{idade_media:.2f}".replace(".", ",") + """ <span style="font-size:1.4rem;font-weight:700;">anos</span></div>
-    <p class="kpi-sub">Média de idade considerando “Ano” do veículo</p>
+    <p class="kpi-sub">Considerando o ano de fabricação do chassi</p>
   </div>
 </div>
 """, unsafe_allow_html=True)
